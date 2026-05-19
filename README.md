@@ -139,5 +139,5 @@ The GLMsingle bundle builder treats each unique image ID as one condition and ex
 
 ## Citation
 
-Please cite the NVD manuscript when using this code. See `CITATION.cff` for citation metadata.
+Please cite the NVD manuscript when using this code
 
