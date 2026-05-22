@@ -3,7 +3,6 @@
 This repository contains experimental, preprocessing, and analysis scripts for the manuscript:
 
 **A 5.0T Ultra-High-Field fMRI Dataset for Naturalistic Visual Scene Processing**  
-Gengchen Ye, Mo Wang, Chiyin Li, Yihao Peng, Yilin Qian, Yutao Wang, Xinyi Si, Shaoxin Xiang, Fanzhi Jiang, Lu Wang, and Ming Zhang.
 
 The code release includes the Psychtoolbox experimental paradigm for naturalistic visual scene presentation, the fMRIPrep Docker command used for preprocessing, and downstream analysis scripts for behavioral checks, quality control, CIFTI tSNR mapping, visual ROI construction, GLMsingle beta estimation, NSD-style noise ceiling estimation, and stimulus feature visualization. Hard-coded local paths were replaced with command-line arguments or template configuration files. Comments and docstrings are written in English for public release.
 
