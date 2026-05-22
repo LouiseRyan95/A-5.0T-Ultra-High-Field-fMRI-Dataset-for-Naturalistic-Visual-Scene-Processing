@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.mat
+*.csv
+*.tsv
+*.png
+*.svg
+*.log
+outputs/
+derivatives/
+
+# Large fMRI datasets and derivatives
+*.nii
+*.nii.gz
+*.dtseries.nii
+*.dscalar.nii
+*.pconn.nii
+derivatives/
+fmriprep_out/
+fmriprepwkdir/
+work/
+logs/
+outputs/
+results/
+
+# MATLAB temporary files
+*.asv

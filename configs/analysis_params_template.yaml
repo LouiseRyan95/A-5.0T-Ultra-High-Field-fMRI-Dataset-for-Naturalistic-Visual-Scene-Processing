@@ -1,0 +1,44 @@
+project:
+  name: "NVD"
+  root: "/path/to/NVD"
+
+paths:
+  events_dir: "/path/to/NVD/events"
+  confounds_dir: "/path/to/NVD/confounds"
+  cifti_dir: "/path/to/NVD/cifti"
+  glmsingle_input_dir: "/path/to/NVD/glmsingle_input_by_sub"
+  glmsingle_output_dir: "/path/to/NVD/glmsingle_output"
+  roi_map_dir: "/path/to/NVD/roi_map"
+  qc_dir: "/path/to/NVD/qc"
+
+fmri:
+  tr: 1.0
+  space: "fsLR"
+  density: "91k"
+  expected_grayordinates: 91282
+
+behavior:
+  target_trial_type: "1"
+  response_time_column: "response_time"
+  trial_type_column: "trial_type"
+  response_time_epsilon: 1.0e-12
+
+fd:
+  pad_sec_after_last_event: 3.0
+  thresholds_mm: [0.2, 0.5]
+
+glmsingle:
+  stimulus_duration_sec: 1.0
+  run_order: "repeat_then_task"
+  expected_task_labels: ["s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10", "s11"]
+  expected_repeat_indexes: [1, 2, 3]
+  expected_presentations_per_image: 3
+  onset_binning: "round"
+  exclude_condition_ids: ["blank", "baseline", "fixation", "fix", "rest", "20000", "30000", "0"]
+  condition_column_candidates: ["image_id", "condition", "stim_id", "stimulus", "stimulus_id"]
+
+noise_ceiling:
+  repeats_required: 3
+  nc_avg_list: [1, 2, 3]
+  chunk_length: 10000
+

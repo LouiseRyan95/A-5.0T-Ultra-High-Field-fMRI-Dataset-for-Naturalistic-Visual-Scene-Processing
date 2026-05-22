@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "A 5.0T Ultra-High-Field fMRI Dataset for Naturalistic Visual Scene Processing"
+authors:
+  - family-names: Ye
+    given-names: Gengchen
+  - family-names: Wang
+    given-names: Mo
+  - family-names: Li
+    given-names: Chiyin
+  - family-names: Peng
+    given-names: Yihao
+  - family-names: Qian
+    given-names: Yilin
+  - family-names: Wang
+    given-names: Yutao
+  - family-names: Si
+    given-names: Xinyi
+  - family-names: Xiang
+    given-names: Shaoxin
+  - family-names: Jiang
+    given-names: Fanzhi
+  - family-names: Wang
+    given-names: Lu
+  - family-names: Zhang
+    given-names: Ming
+version: "1.0.0"
+

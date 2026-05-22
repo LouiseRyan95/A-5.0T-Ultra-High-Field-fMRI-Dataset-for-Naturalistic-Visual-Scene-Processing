@@ -1,0 +1,23 @@
+name: nvd-code
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - scipy
+  - nibabel
+  - matplotlib
+  - scikit-learn
+  - pillow
+  - tqdm
+  - packaging
+  - pyyaml
+  - pip
+  - pip:
+      - torch
+      # Install manually if required:
+      # - git+https://github.com/openai/CLIP.git
+      # - glmsingle
+
